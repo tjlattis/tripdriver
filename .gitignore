@@ -1,0 +1,4 @@
+~/repos/tripdriver/.gitignore
+
+.DS_Store
+geckodriver.log
