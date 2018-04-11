@@ -1,0 +1,372 @@
+1523459659955	geckodriver	INFO	geckodriver 0.20.1
+1523459660027	geckodriver	INFO	Listening on 127.0.0.1:49481
+1523459660971	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.hiPqAYMo8rAY"
+1523459661482	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:14:22.279 plugin-container[1158:15826] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523459662586	Marionette	INFO	Listening on port 49490
+1523459662656	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:14:23.189 plugin-container[1159:15902] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460111825	geckodriver	INFO	geckodriver 0.20.1
+1523460111889	geckodriver	INFO	Listening on 127.0.0.1:49696
+1523460112852	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.lMz3GPLMRbq2"
+1523460113340	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:21:54.163 plugin-container[1179:18588] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460114446	Marionette	INFO	Listening on port 49702
+1523460114514	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:21:55.023 plugin-container[1180:18666] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x793f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://www.tripadvisor.com/Attraction_Review-g294201-d553185-Reviews-or10-Keops_Pyramid-Cairo_Cairo_Governorate.html, line 21: ReferenceError: osdlfm is not defined
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460164859	geckodriver	INFO	geckodriver 0.20.1
+1523460164926	geckodriver	INFO	Listening on 127.0.0.1:49827
+1523460165886	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.1z2MXRkdAyKb"
+1523460166344	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:22:47.135 plugin-container[1188:19183] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460167426	Marionette	INFO	Listening on port 49833
+1523460167434	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:22:48.007 plugin-container[1189:19265] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460204575	geckodriver	INFO	geckodriver 0.20.1
+1523460204638	geckodriver	INFO	Listening on 127.0.0.1:50033
+1523460205594	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.zNvGjs1uG6jV"
+1523460206062	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:23:26.852 plugin-container[1196:19685] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7903, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460207182	Marionette	INFO	Listening on port 50039
+1523460207242	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:23:27.735 plugin-container[1197:19768] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460250698	geckodriver	INFO	geckodriver 0.20.1
+1523460250759	geckodriver	INFO	Listening on 127.0.0.1:50212
+1523460251720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.EBcRho3jUoiw"
+1523460252176	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:24:12.936 plugin-container[1205:20324] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460253298	Marionette	INFO	Listening on port 50218
+1523460253384	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:24:13.839 plugin-container[1206:20394] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+1523460357019	geckodriver	INFO	geckodriver 0.20.1
+1523460357083	geckodriver	INFO	Listening on 127.0.0.1:50427
+1523460358041	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.hS2O6H2TRdG2"
+1523460358494	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:25:59.332 plugin-container[1214:21252] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x793f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460359656	Marionette	INFO	Listening on port 50433
+1523460359710	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:26:00.212 plugin-container[1215:21329] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460413858	geckodriver	INFO	geckodriver 0.20.1
+1523460413924	geckodriver	INFO	Listening on 127.0.0.1:50593
+1523460414881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.46bsVH9JhM01"
+1523460415336	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:26:56.096 plugin-container[1227:21929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460416434	Marionette	INFO	Listening on port 50599
+1523460416532	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:26:56.999 plugin-container[1228:22002] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x47000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460853127	geckodriver	INFO	geckodriver 0.20.1
+1523460853193	geckodriver	INFO	Listening on 127.0.0.1:50752
+1523460854149	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.SkmVVvHY4A1i"
+1523460854576	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:34:15.360 plugin-container[1250:24581] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460855706	Marionette	INFO	Listening on port 50758
+1523460855796	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:34:16.329 plugin-container[1251:24659] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460871601	geckodriver	INFO	geckodriver 0.20.1
+1523460871665	geckodriver	INFO	Listening on 127.0.0.1:50838
+1523460872628	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.ZLfjNA31rzfC"
+1523460873046	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:34:33.813 plugin-container[1257:24874] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460874138	Marionette	INFO	Listening on port 50844
+1523460874192	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:34:34.722 plugin-container[1258:24952] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460907302	geckodriver	INFO	geckodriver 0.20.1
+1523460907369	geckodriver	INFO	Listening on 127.0.0.1:50928
+1523460908320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.gC27mA54xmpU"
+1523460908740	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:35:09.510 plugin-container[1265:25278] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460909826	Marionette	INFO	Listening on port 50934
+1523460909884	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:35:10.440 plugin-container[1266:25349] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7843, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 218: TypeError: this._mm is null
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523460939771	geckodriver	INFO	geckodriver 0.20.1
+1523460939832	geckodriver	INFO	Listening on 127.0.0.1:51020
+1523460940792	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.sxSJte4J2sTz"
+1523460941214	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:35:42.069 plugin-container[1272:25622] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523460942422	Marionette	INFO	Listening on port 51027
+1523460942466	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:35:42.966 plugin-container[1273:25705] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461013431	geckodriver	INFO	geckodriver 0.20.1
+1523461013497	geckodriver	INFO	Listening on 127.0.0.1:51127
+1523461014458	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.5pBDu2b4nHjp"
+1523461014874	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:36:55.638 plugin-container[1283:26297] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x833f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461015984	Marionette	INFO	Listening on port 51133
+1523461016020	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:36:56.567 plugin-container[1284:26368] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461275181	geckodriver	INFO	geckodriver 0.20.1
+1523461275244	geckodriver	INFO	Listening on 127.0.0.1:51269
+1523461276205	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.xLv4j9Cey9mY"
+1523461276626	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:41:17.429 plugin-container[1297:27873] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461277776	Marionette	INFO	Listening on port 51275
+1523461277858	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:41:18.331 plugin-container[1298:27955] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461442871	geckodriver	INFO	geckodriver 0.20.1
+1523461442936	geckodriver	INFO	Listening on 127.0.0.1:51409
+1523461443899	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.0nMoI3p1q7GJ"
+1523461444364	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:44:05.153 plugin-container[1309:28978] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461445468	Marionette	INFO	Listening on port 51415
+1523461445552	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:44:06.057 plugin-container[1310:29054] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461492982	geckodriver	INFO	geckodriver 0.20.1
+1523461493043	geckodriver	INFO	Listening on 127.0.0.1:51516
+1523461494000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.TL9ibP84UGM9"
+1523461494402	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:44:55.209 plugin-container[1316:29366] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461495574	Marionette	INFO	Listening on port 51522
+1523461495646	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:44:56.161 plugin-container[1317:29441] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461615863	geckodriver	INFO	geckodriver 0.20.1
+1523461615928	geckodriver	INFO	Listening on 127.0.0.1:51620
+1523461616888	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.EoJ7ZWF89agG"
+1523461617376	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:46:58.216 plugin-container[1331:30271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461618708	Marionette	INFO	Listening on port 51626
+1523461618748	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:46:59.278 plugin-container[1332:30354] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8947, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461647034	geckodriver	INFO	geckodriver 0.20.1
+1523461647095	geckodriver	INFO	Listening on 127.0.0.1:51764
+1523461648056	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.9IAi99VOkw8e"
+1523461648506	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:47:29.272 plugin-container[1340:30667] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461649630	Marionette	INFO	Listening on port 51770
+1523461649706	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:47:30.181 plugin-container[1341:30735] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461725003	geckodriver	INFO	geckodriver 0.20.1
+1523461725065	geckodriver	INFO	Listening on 127.0.0.1:51903
+1523461726029	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.z27eZZ1wCkzH"
+1523461726476	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:48:47.245 plugin-container[1349:31249] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461727582	Marionette	INFO	Listening on port 51909
+1523461727692	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:48:48.166 plugin-container[1350:31326] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+[Child 1349, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1349, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461741985	geckodriver	INFO	geckodriver 0.20.1
+1523461742047	geckodriver	INFO	Listening on 127.0.0.1:52006
+1523461743008	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.rPNi2EcxvRO5"
+1523461743432	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:49:04.225 plugin-container[1356:31561] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x880b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461744594	Marionette	INFO	Listening on port 52012
+1523461744664	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:49:05.154 plugin-container[1358:31651] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x510027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461901462	geckodriver	INFO	geckodriver 0.20.1
+1523461901526	geckodriver	INFO	Listening on 127.0.0.1:52191
+1523461902485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.Rep0PGNaFVlv"
+1523461902940	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:51:43.733 plugin-container[1367:32429] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461904064	Marionette	INFO	Listening on port 52197
+1523461904140	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:51:44.643 plugin-container[1368:32507] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+[Child 1367, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 1367, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523461971693	geckodriver	INFO	geckodriver 0.20.1
+1523461971761	geckodriver	INFO	Listening on 127.0.0.1:52409
+1523461972721	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.ESHtYsoNEHMu"
+1523461973142	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:52:53.930 plugin-container[1376:32978] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523461974268	Marionette	INFO	Listening on port 52415
+1523461974284	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:52:54.899 plugin-container[1377:33055] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x883f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523462323772	geckodriver	INFO	geckodriver 0.20.1
+1523462323840	geckodriver	INFO	Listening on 127.0.0.1:52584
+1523462324792	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.bAPkCN5MyK0U"
+1523462325244	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:58:46.024 plugin-container[1394:35037] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523462326382	Marionette	INFO	Listening on port 52590
+1523462326458	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:58:46.969 plugin-container[1395:35115] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1523462383388	geckodriver	INFO	geckodriver 0.20.1
+1523462383452	geckodriver	INFO	Listening on 127.0.0.1:52746
+1523462384413	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/p0/kdknrvm54pvgrg_9tbdhlcp80000gn/T/rust_mozprofile.Knq8uW6blTeQ"
+1523462384860	Marionette	INFO	Enabled via --marionette
+2018-04-11 10:59:45.629 plugin-container[1402:35507] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523462385948	Marionette	INFO	Listening on port 52752
+1523462385960	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-04-11 10:59:46.547 plugin-container[1403:35587] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8303, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://static.tacdn.com/js3/mootools-c-v22847647807a.js, line 13: String.toLowerCase is deprecated; use String.prototype.toLowerCase instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-18/html/container.html, line 14: SecurityError: Permission denied to access property "ta" on cross-origin object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x510027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
