@@ -8,30 +8,26 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import bs4
-import traceback
-
 import sys
-non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
-# establish driver and perform initial query
-driver = webdriver.Firefox()
-url = "https://www.tripadvisor.com/Attraction_Review-g294201-d553185-Reviews-Keops_Pyramid-Cairo_Cairo_Governorate.html"
-driver.get(url)
+def GetComments(url):
 
-# find max page index
-source = driver.page_source
-soup = bs4.BeautifulSoup(source, "html.parser")
-last = soup.select("a.pageNum.last.taLnk")
-# print(last[0].text) # uncomment this line for debugging index finder
+    # instantiate some things
+    driver = webdriver.Firefox()
+    driver.get(url)
+    pages = []
+    filename = url[62:-5]
+    count = 1
+    print("Harvesting comments from site: %s" % filename)
 
-# initialize list
-pages = []
-
-# these statements may eventually be unnested from try/except
-try:
+    # find max page index
+    source = driver.page_source
+    soup = bs4.BeautifulSoup(source, "html.parser")
+    last = soup.select("a.pageNum.last.taLnk")
     
+        
     # iterate throuhg indexes
-    for page in range(int(last[0].text) - 1):
+    for page in range(int(last[0].text)):
 
         # wait for 'next' element to be visible after ajax request
         WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
@@ -42,28 +38,24 @@ try:
         page = page_obj.select("#taplc_location_reviews_list_responsive_detail_0")
         pages.append(page[0])
         # print(page[0].text.translate(non_bmp_map)) # uncomment this line if emojis are causing print problems
+
+        print("Page %s of %s complete" % (count, last[0].text))
+        count += 1
         
         # advance page
         driver.find_element_by_class_name('next').click()
-        
-except Exception as ex:
-    print(traceback.format_exc())
 
-finally:
-    # close the browser and print minor confirmation
     driver.close()
-    print(len(pages))
+    
+    # write results to a file
+    with open("%s.html" % filename, 'w') as htmlfile:
+        for item in pages:
+            htmlfile.write(str(item))
+        htmlfile.close()
 
-# create a (somewhat)unique filename from url
-filename = url[28:]
+    with open("%s.txt" % filename, 'w') as txtfile:
+        for item in pages:
+            txtfile.write(item.text)
+        txtfile.close()
 
-# write results to a file
-with open("%s.html" % filename, 'w') as htmlfile:
-    for item in pages:
-        htmlfile.write(str(item))
-    htmlfile.close()
-
-with open("%s.txt" % filename, 'w') as txtfile:
-    for item in pages:
-        txtfile.write(item.text)
-    txtfile.close()
+    
