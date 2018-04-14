@@ -7,8 +7,17 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+import time
 import bs4
 import sys
+
+def logError(filename, count, last):
+    with open("%s.log" % filename, 'w') as logfile:
+        logfile.write("Problem incrementing page for attraction:")
+        logfile.write(filename)
+        logfile.write("\n")
+        logfile.write("Pages harvested successfully: %s of %s" % count, last)
+        logfile.close()
 
 def GetComments(url):
 
@@ -23,11 +32,11 @@ def GetComments(url):
     # find max page index
     source = driver.page_source
     soup = bs4.BeautifulSoup(source, "html.parser")
-    last = soup.select("a.pageNum.last.taLnk")
+    last = (soup.select("a.pageNum.last.taLnk"))[0].text
     
         
     # iterate throuhg indexes
-    for page in range(int(last[0].text)):
+    for page in range(int(last)):
 
         # wait for 'next' element to be visible after ajax request
         WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
@@ -39,11 +48,20 @@ def GetComments(url):
         pages.append(page[0])
         # print(page[0].text.translate(non_bmp_map)) # uncomment this line if emojis are causing print problems
 
-        print("Page %s of %s complete" % (count, last[0].text))
-        count += 1
+        print("Page %s of %s complete" % (count, last))
         
         # advance page
-        driver.find_element_by_class_name('next').click()
+        try:
+            driver.find_element_by_class_name('next').click()
+        except:
+            time.sleep(2)
+            try:
+                driver.find_element_by_class_name('next').click()
+            except:
+                logError(filename, count, last)
+                break
+        count += 1
+                
 
     driver.close()
     
