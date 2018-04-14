@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import bs4
 import tripdriver
+from datetime import datetime
 
 def ScrapeIndex(url):
 	driver = webdriver.Firefox()
@@ -33,6 +34,9 @@ def ScrapeIndex(url):
 
 if __name__ == "__main__":
 
+	start_time = datetime.now()
 	url = "https://www.tripadvisor.com/Attractions-g294201-Activities-c47-Cairo_Cairo_Governorate.html#FILTERED_LIST"
 	ScrapeIndex(url)
+	print("Job Completed!")
+	print("time elapsed : %s" % (datetime.now() - start_time)) 
     

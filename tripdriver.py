@@ -27,7 +27,7 @@ def GetComments(url):
     pages = []
     filename = url[62:-5]
     if filename[0] == "-":
-        filename = filename[1:] 
+        filename = filename[1:]     
     count = 1
     print("Harvesting comments from site: %s" % filename)
 
@@ -40,13 +40,8 @@ def GetComments(url):
     else:
         last = index[0].text 
     
-        
-    # iterate throuhg indexes
-    for page in range(int(last)):
 
-        # wait for 'next' element to be visible after ajax request
-        WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
-        #WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "next"))) # this line left for historical purposes
+    if last == 1:
 
         # grab container and append to list
         page_obj = bs4.BeautifulSoup(driver.page_source, "html.parser")
@@ -55,18 +50,36 @@ def GetComments(url):
         # print(page[0].text.translate(non_bmp_map)) # uncomment this line if emojis are causing print problems
 
         print("Page %s of %s complete" % (count, last))
+        count += 1
+
+    else: 
         
-        # advance page
-        try:
-            driver.find_element_by_class_name('next').click()
-        except:
-            time.sleep(2)
+        # iterate throuhg indexes
+        for page in range(int(last)):
+
+            # wait for 'next' element to be visible after ajax request
+            WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
+            #WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "next"))) # this line left for historical purposes
+
+            # grab container and append to list
+            page_obj = bs4.BeautifulSoup(driver.page_source, "html.parser")
+            page = page_obj.select("#taplc_location_reviews_list_responsive_detail_0")
+            pages.append(page[0])
+            # print(page[0].text.translate(non_bmp_map)) # uncomment this line if emojis are causing print problems
+
+            print("Page %s of %s complete" % (count, last))
+            
+            # advance page
             try:
                 driver.find_element_by_class_name('next').click()
             except:
-                logError(filename, count, last)
-                break
-        count += 1
+                time.sleep(2)
+                try:
+                    driver.find_element_by_class_name('next').click()
+                except:
+                    logError(filename, count, last)
+                    break
+            count += 1
                 
 
     driver.close()
@@ -82,4 +95,9 @@ def GetComments(url):
             txtfile.write(item.text)
         txtfile.close()
 
+if __name__ == "__main__":
+
+    url = "https://www.tripadvisor.com/Attraction_Review-g294201-d7112146-Reviews-Amru_Tours_Day_Tours-Cairo_Cairo_Governorate.html"
+    GetComments(url)
+    print("Test Complete")
     
