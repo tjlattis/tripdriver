@@ -26,13 +26,19 @@ def GetComments(url):
     driver.get(url)
     pages = []
     filename = url[62:-5]
+    if filename[0] == "-":
+        filename = filename[1:] 
     count = 1
     print("Harvesting comments from site: %s" % filename)
 
     # find max page index
     source = driver.page_source
     soup = bs4.BeautifulSoup(source, "html.parser")
-    last = (soup.select("a.pageNum.last.taLnk"))[0].text
+    index = soup.select("a.pageNum.last.taLnk")
+    if len(index) == 0:
+        last = 1
+    else:
+        last = index[0].text 
     
         
     # iterate throuhg indexes
