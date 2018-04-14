@@ -1,10 +1,12 @@
 # tripdriver !!
 
-A python3 application to scrape comments from a give page on tripadvisor.
+A python3 application to scrape comments from a given set of pages on tripadvisor.
 
 ## Usage
 
-The Url variable is hard coded at the moment, so udate to a desired page url and run.  The script will create two files named after the hard coded url.  The .txt file will contain all of the text elements from the harvested comments and the .html file contains the source found in the comment container for each page of comments harvested. 
+At the moment `tripindex.py`, the part of the srcipt which indexes the pages to be scraped, simply takes a hardcoded url in the `__main__` method.  The default url is for the Cairo Governate in Egypt. If annother city is desired, simply change the url to a similar one for a different place. 
+
+The script should be run either as main from a python console using tripindex.py as the active srcipt or from the command line as `python3 tripindex.py`. `tripindex.py` will call separate instances of `tripdriver.py`, which should not need modification. 
 
 ## Dependancies
 
