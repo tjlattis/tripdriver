@@ -12,7 +12,7 @@ The script should be run either as main from a python console using tripindex.py
 
 This project depends on: 
 
-`Selenium Webdriver`, 
-`Firefox`, 
-`BeautifulSoup4`, and 
-`geckodriver`. 
+  *`Selenium Webdriver` 
+  *`Firefox` 
+  *`BeautifulSoup4` 
+  *`geckodriver`
