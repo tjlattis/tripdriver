@@ -1,6 +1,6 @@
 # tripdriver !!
 
-A python3 application to scrape comments from a given set of pages on tripadvisor.
+A python3 script to scrape comments from a given set of pages on tripadvisor.
 
 ## Usage
 
