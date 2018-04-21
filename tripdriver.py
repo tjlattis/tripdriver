@@ -11,32 +11,36 @@ import getComments
 from datetime import datetime
 
 def ScrapeIndex(url):
-	driver = webdriver.Firefox()
-	driver.get(url)
+    driver = webdriver.Firefox()
+    driver.get(url)
 
-	for i in range(4):
+    for i in range(4):
 
-	    WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
+        WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
 
-	    page_obj = bs4.BeautifulSoup(driver.page_source, "html.parser")
-	    listings = page_obj.select(".listing_title")
-	    
-	    for listing in listings:
+        page_obj = bs4.BeautifulSoup(driver.page_source, "html.parser")
+        listings = page_obj.select(".listing_title")
 
-	        link = listing.find('a')
-	        linkurl = "https://www.tripadvisor.com" + link.get('href')
-	        getComments.GetComments(linkurl)
+        for listing in listings:
 
-	    driver.find_element_by_class_name('next').click()
+            link = listing.find('a')
+            linkurl = "https://www.tripadvisor.com" + link.get('href')
+            getComments.GetComments(linkurl)
 
+        try:
+            driver.find_element_by_class_name('next').click()
+        except:
+            driver.find_element_by_class_name('close.ui_icon.times').click()
+            WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
+            driver.find_element_by_class_name('next').click()
 
-	driver.close()
+    driver.close()
 
 if __name__ == "__main__":
 
-	start_time = datetime.now()
-	url = "https://www.tripadvisor.com/Attractions-g294201-Activities-c47-Cairo_Cairo_Governorate.html#FILTERED_LIST"
-	ScrapeIndex(url)
-	print("Job Completed!")
-	print("time elapsed : %s" % (datetime.now() - start_time)) 
+    start_time = datetime.now()
+    url = "https://www.tripadvisor.com/Attractions-g294201-Activities-c47-Cairo_Cairo_Governorate.html#FILTERED_LIST"
+    ScrapeIndex(url)
+    print("Job Completed!")
+    print("time elapsed : %s" % (datetime.now() - start_time)) 
     

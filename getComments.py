@@ -74,12 +74,17 @@ def GetComments(url):
             try:
                 driver.find_element_by_class_name('next').click()
             except:
-                time.sleep(2)
                 try:
+                    driver.find_element_by_class_name('close.ui_icon.times').click()
+                    WebDriverWait(driver, 2).until(EC.visibility_of_element_located((By.CLASS_NAME, "next")))
                     driver.find_element_by_class_name('next').click()
                 except:
-                    logError(filename, count, last)
-                    break
+                    try:
+                        time.sleep(2)
+                        driver.find_element_by_class_name('next').click()
+                    except:
+                        logError(filename, count, last)
+                        break
             count += 1
                 
 
@@ -88,21 +93,8 @@ def GetComments(url):
     # write results to a file
     writePyxl.write(pages, filename)
 
-    """
-    with open("%s.html" % filename, 'w') as htmlfile:
-        for item in pages:
-            htmlfile.write(str(item))
-        htmlfile.close()
-
-    with open("%s.txt" % filename, 'w') as txtfile:
-        for item in pages:
-            txtfile.write(item.text)
-        txtfile.close()
-    """
-
 if __name__ == "__main__":
 
     url = "https://www.tripadvisor.com/Attraction_Review-g294201-d7112146-Reviews-Amru_Tours_Day_Tours-Cairo_Cairo_Governorate.html"
     GetComments(url)
-    print("Test Complete")
     
