@@ -10,7 +10,7 @@ import bs4
 import getComments
 from datetime import datetime
 
-def ScrapeIndex(url):
+def getIndex(url):
     driver = webdriver.Firefox()
     driver.get(url)
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     start_time = datetime.now()
     url = "https://www.tripadvisor.com/Attractions-g294201-Activities-c47-Cairo_Cairo_Governorate.html#FILTERED_LIST"
-    ScrapeIndex(url)
+    getIndex(url)
     print("Job Completed!")
     print("time elapsed : %s" % (datetime.now() - start_time)) 
     
