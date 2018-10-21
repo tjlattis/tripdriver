@@ -1,6 +1,4 @@
 #! usr/local/bin/python3
-# tripdriver.py | a script which will scrape links to POIs in a given city on tripadvisor when provided the proper url
-# calls annother instance of the webdriver which scrapes the comments from the pages indexed by this script
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
